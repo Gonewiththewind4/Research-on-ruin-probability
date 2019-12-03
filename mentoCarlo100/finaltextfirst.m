@@ -143,7 +143,7 @@ o1(acb)=sqrt(er2.*(1-a11(acb).^2));
 %u11(acb)=yi1.*(1-a11(acb));
 end
 end
-acb
+acb;
 end
 
 %ansa=mean(a11)

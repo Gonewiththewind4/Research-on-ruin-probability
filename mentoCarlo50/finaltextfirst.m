@@ -9,7 +9,7 @@ u=2.5;%均值
  y1=zeros(1,n);%生成序列向量
  %y1(1)=u/(1-a);%设置初始理赔强度更改量为：均值/（1-a）
  for pp=1:ppp
-for acb=1:50%组
+for acb=1:30%组
  a11(acb)=sqrt(-1);  
 while (~(isreal(a11(acb))))
 %while (E<n)
@@ -143,7 +143,7 @@ o1(acb)=sqrt(er2.*(1-a11(acb).^2));
 %u11(acb)=yi1.*(1-a11(acb));
 end
 end
-acb
+acb;
 end
 
 %ansa=mean(a11)
