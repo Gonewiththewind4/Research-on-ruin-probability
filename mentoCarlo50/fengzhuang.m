@@ -19,5 +19,11 @@ while(asd(4)>asd(3));
      
     [as(4),asd(4),asd2(4)]=finaltextanother(5,9);
 end
+4
+asd(5)=2.*asd(4);
+while(asd(5)>asd(4));
+     
+    [as(5),asd(5),asd2(5)]=finaltextanother(5,12);
+end
 as
 asd2

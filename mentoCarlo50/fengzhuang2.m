@@ -18,5 +18,11 @@ while(asd1(4)>asd1(3));
     
     [as1(4),asd1(4),asdo(4)]=finaltextfirst(5,9);
 end
+asd1(5)=2.*asd1(4);
+3
+while(asd1(5)>asd1(4));
+    
+    [as1(5),asd1(5),asdo(5)]=finaltextfirst(5,12);
+end
 as1
 asdo
